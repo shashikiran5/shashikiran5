@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Builder</h1>
+    <form id="resumeForm">
+      <!-- Personal Information Section -->
+      <h2>Personal Information</h2>
+      <input type="text" placeholder="Full Name" id="fullName">
+      <input type="text" placeholder="Email" id="email">
+      <!-- Education Section -->
+      <h2>Education</h2>
+      <input type="text" placeholder="Degree" id="degree">
+      <input type="text" placeholder="University" id="university">
+      <!-- Work Experience Section -->
+      <h2>Work Experience</h2>
+      <input type="text" placeholder="Job Title" id="jobTitle">
+      <input type="text" placeholder="Company" id="company">
+      <!-- Skills Section -->
+      <h2>Skills</h2>
+      <input type="text" placeholder="Skill 1" id="skill1">
+      <input type="text" placeholder="Skill 2" id="skill2">
+      <!-- Preview Section -->
+      <h2>Preview</h2>
+      <div id="preview"></div>
+      <!-- Download Button -->
+      <button type="button" onclick="downloadResume()">Download Resume</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
